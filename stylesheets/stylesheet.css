@@ -225,9 +225,9 @@ hr {
 }
 
 table {
-    border: 1px solid #373737;
-    margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
 }
 
 th {
@@ -239,7 +239,7 @@ th {
 
 td {
     padding: 10px;
-    border: 1px solid #373737;
+    background-color: #d3d3d3;
 }
 
 form {
@@ -257,9 +257,9 @@ Full-Width Styles
 
 .inner {
     position: relative;
-    max-width: 800px;
     padding: 20px 10px;
     margin: 0 auto;
+    text-align: center;
 }
 
 #forkme_banner {
